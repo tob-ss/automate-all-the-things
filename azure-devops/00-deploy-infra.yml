@@ -3,7 +3,7 @@ name: deploy-infra
 trigger: none
 
 pool:
-  vmImage: 'ubuntu-latest' 
+  # vmImage: 'ubuntu-latest' 
   # If you are using a self-hosted agent, comment out the previous line and uncomment the following three
   name: Default # Insert here the name of the agent pool you created
   demands:
