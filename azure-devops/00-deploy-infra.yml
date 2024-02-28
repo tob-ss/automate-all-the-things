@@ -5,9 +5,9 @@ trigger: none
 pool:
   vmImage: 'ubuntu-latest' 
   # If you are using a self-hosted agent, comment out the previous line and uncomment the following three
-  # name: <agent-pool-name> # Insert here the name of the agent pool you created
-  # demands:
-  #   - agent.name -equals <agent-name> # Insert here the name of the agent you created
+  name: Default # Insert here the name of the agent pool you created
+  demands:
+     - agent.name -equals DESKTOP-N5G970I # Insert here the name of the agent you created
 
 variables:
   AWS_REGION: eu-north-1 # This value was modified by the initial-setup python script
